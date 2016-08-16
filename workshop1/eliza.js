@@ -93,7 +93,7 @@ var rules = {
     "Don't you believe that dream has to do with your problem?",
   ],
   "~*x my mother ~*y": [
-    "Who else in your family ~y?",
+    "Go get your cat ~y?",
     "Tell me more about your family",
   ],
   "~*x my father ~*y": [
