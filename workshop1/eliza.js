@@ -29,7 +29,7 @@
 
 var rules = {
   "~*x hello ~*y": [
-    "How do you do. Please state your problem."
+    "How are you today? If there is a problem please state it."
   ],
   "~*x computer ~*y": [
     "Do computers worry you?",
@@ -50,7 +50,7 @@ var rules = {
   ],
   "~*x I remember ~*y": [
     "Do you often think of ~y?",
-    "Does thinking of ~y bring anything else to mind?",
+    "Does thinking of ~y bring bad thoughts to mind?",
     "What else do you remember?",
     "Why do you recall ~y right now?",
     "What in the present situation reminds you of ~y?",
@@ -70,16 +70,16 @@ var rules = {
     "~*x I need ~*y": [
     "What would it mean if you got ~y?",
     "Why do you need ~y?",
-    "Suppose you got ~y soon.",
+    "I can get it for you ~y soon.",
   ],
   "~*x if ~*y": [
     "Do you really think it's likely that ~y?",
     "Do you wish that ~y?",
     "What do you think about ~y?",
-    "Really--if ~y?",
+    "Really--why ~y?",
   ],
   "~*x I dreamt ~*y": [
-    "Really-- ~y",
+    "OMG-- ~y",
     "Have you ever fantasized ~y while you were awake",
     "Have you dreamt of ~y before?",
   ],
@@ -89,7 +89,7 @@ var rules = {
   "~*x dream ~*y": [
     "What does this dream suggest to you?",
     "Do you dream often?",
-    "What persons appear in your dreams?",
+    "Do persons appear in your dreams?",
     "Don't you believe that dream has to do with your problem?",
   ],
   "~*x my mother ~*y": [
@@ -102,8 +102,8 @@ var rules = {
     "What else comes to mind when you think of your father?",
   ],
   "~*x I am glad ~*y": [
-    "How have I helped you to be ~y?",
-    "What makes you happy just now?",
+    " Have I helped you to be ~y?",
+    "What makes you happy right now?",
     "Can you explain why you are suddenly ~y?",
   ],
   "~*x I am sad ~*y": [
